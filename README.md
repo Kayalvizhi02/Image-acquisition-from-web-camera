@@ -54,7 +54,7 @@ cap = cv2.VideoCapture(0)
 while True:
     ret, frame = cap.read()
 
-    cv2.imshow("image",frame)
+    cv2.imshow("image1",frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 videoCaptureObject.release()
@@ -117,25 +117,22 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
-</br>
-</br>
 
+![image](https://user-images.githubusercontent.com/75413726/162357152-c49e7b28-399b-4391-b058-8fe8dccade35.png)
 
 ### ii) Display the video
-</br>
-</br>
+
+![image](https://user-images.githubusercontent.com/75413726/162357290-f9efc506-1787-4756-b127-bd454de6bcea.png)
 
 
 ### iii) Display the video by resizing the window
-</br>
-</br>
 
+![image](https://user-images.githubusercontent.com/75413726/162364458-482a3ff4-8b73-4410-9d43-2304733ea245.png)
 
 
 ### iv) Rotate and display the video
-</br>
-</br>
 
+![image](https://user-images.githubusercontent.com/75413726/162364494-3e341443-65d6-4569-9b69-f075c183535a.png)
 
 
 

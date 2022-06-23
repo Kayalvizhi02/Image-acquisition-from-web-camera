@@ -1,4 +1,4 @@
-# Image-Acquisition-from-Web-Camera
+# Image Acquisition from Web Camera
 ## Aim
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.

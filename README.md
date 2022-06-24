@@ -11,7 +11,7 @@ iv) Rotate and display the video
 
 ## Software Required:
 Anaconda - Python 3.7
-## Algorithm
+## Algorithm:
 ### Step 1:
 
 Import cv2 and capture the video using cv2.VideoCapture(0)
